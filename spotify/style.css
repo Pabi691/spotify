@@ -1,0 +1,368 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.sign-up{
+  justify-content: center;
+  text-align: center;
+}
+
+
+.background-image1{
+  background-image: url("New folder/pexels-annam-w-1047442.jpg");
+  height:75vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position:absolute;
+  z-index: -1;
+  border-bottom: 5px solid green;
+}
+.background-image2{
+  background-image: url("pexels-josh-sorenson-995301.jpg");
+  height:100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  position:fixed;
+  z-index: -1;
+}
+.container-fluid input{
+  border-radius: 8px;
+  background: rgba(255, 0, 0, 0);
+}
+
+.logo img{
+  width: 20%;
+}
+.container{
+  margin: 100px 200px;
+}
+.container form{
+  padding: 0 300px;
+}
+.fb button{
+  width: 400px;
+  border-radius: 30px;
+}
+.form-fill label{
+  padding-bottom:5px;
+}
+.form-fill input{
+  margin-bottom: 10px;
+}
+.gmail button{
+  border: 2px solid #0dcaf0;
+}
+.facebook img{
+  width: 15%;
+    float: left;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+.gmail img{
+  width: 10%;
+    float: left;
+    padding-left: 15px;
+    margin-left: 49px;
+    padding-top: 0px;
+}
+.facebook h2{
+  font-size: 20px;
+    color: white;
+    font-weight: 600;
+    margin-top: 5px;
+    padding-right: 43px;
+}
+.gmail h2{
+  font-size: 20px;
+    color: black;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-right: 48px;
+}
+.facebook button:hover{
+ width: 80%;
+}
+.gmail button:hover{
+ width: 80%;
+}
+.col{
+  padding: 20px 0;
+}
+.line{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 70px;
+
+}
+.line hr{
+  width: 150px;
+
+  padding: 1px;
+  border-radius: 5px;
+  opacity: 1;
+}
+.hr-1{
+  margin-right: 15px;
+  color: red;
+
+}
+.hr-2{
+  margin-left: 15px;
+  color: blue;
+}
+.form-fill{
+  flex-direction: column;
+  text-align:
+}
+.sex{
+  display: flex;
+}
+.space{
+  margin-left: 8px;
+}
+.date select{
+  background-color: #ff000000;
+    margin-top: 5px;
+    margin-bottom: 14px;
+    border-radius: 6px;
+}
+.container label{
+  font-size: 20px;
+  font-weight: 700;
+}
+.container p{
+  font-size: 16px;
+  font-weight: 600;
+}
+input{
+  padding: 10px 0;
+  border-width: thin;
+  padding-left: 10px;
+}
+
+/* input:hover{
+  border:1px solid blue;
+} */
+select{
+  padding: 10px 0;
+  cursor: pointer;
+}
+select:hover{
+  border:1px solid blue;
+}
+
+#flexRadioDefault{
+  padding: 0;
+  cursor: pointer;
+}
+#flexCheckchecked{
+  padding: 5px 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.form-check-label p{
+  margin-left: 15px;
+}
+.box-1:hover{
+  border:1px solid blue;
+}
+.box-2:hover{
+  border:1px solid blue;
+}
+.box-3:hover{
+  border:1px solid blue;
+}
+.box-4:hover{
+  border:1px solid blue;
+}
+.box-5:hover{
+  border:1px solid blue;
+}
+.box-6:hover{
+  border:1px solid blue;
+}
+#submit input{
+  padding:10px 20px;
+  background: linear-gradient(to bottom, skyblue 0%, green 100%);
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+#submit input:hover{
+  background: linear-gradient(to bottom,green 0%,skyblue 100%);
+  box-shadow: 5px 5px 6px #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (min-width:768px) {
+  .facebook button:hover{
+   width: 60%;
+  }
+  .gmail button:hover{
+   width: 60%;
+  }
+}
+
+@media (min-width:992px) {
+  .facebook button:hover{
+   width: 45%;
+  }
+  .gmail button:hover{
+   width: 45%;
+  }
+}
+
+@media (min-width:1200px) {
+  .facebook button:hover{
+   width: 37%;
+  }
+  .gmail button:hover{
+   width: 37%;
+  }
+}
+
+@media (min-width:1400px) {
+  .facebook button:hover{
+   width: 32%;
+  }
+  .gmail button:hover{
+   width: 32%;
+  }
+}
+
+
+@media (max-width:576px) {
+  .facebook button:hover{
+   width: 85%;
+  }
+  .gmail button:hover{
+   width: 85%;
+  }
+}
+@media (max-width:506px) {
+  .facebook button:hover{
+   width: 90%;
+  }
+  .gmail button:hover{
+   width: 90%;
+  } */
+/* } */
+
+@media(min-width:490px){
+  .facebook button{
+   width: 70%;
+  }
+  .gmail button{
+   width: 70%;
+  }
+  .facebook button:hover{
+   width: 70.5%;
+  }
+  .gmail button:hover{
+   width: 71%;
+  }
+
+}
+
+@media(min-width:490px){
+  .facebook button{
+   width: 50%;
+  }
+  .gmail button{
+   width: 50%;
+  }
+  .facebook button:hover{
+   width: 50.3%;
+  }
+  .gmail button:hover{
+   width: 51%;
+  }
+
+}
+@media(min-width:1024px){
+  .facebook button{
+   width: 40%;
+  }
+  .gmail button{
+   width: 40%;
+  }
+  .facebook button:hover{
+   width: 40.2%;
+  }
+  .gmail button:hover{
+   width: 41%;
+  }
+  .facebook h2{
+    /* font-size: 20px; */
+      /* color: white; */
+      /* font-weight: 600; */
+      margin-top: 10px;
+      /* padding-right: 43px; */
+    }
+}
+@media (max-width:490px) {
+  .facebook button{
+   width: 50%;
+  }
+  form{
+    width: 250px;
+    margin-left: 5%;
+  }
+  .container{
+    max-width: 230px;
+  }
+  .gmail button{
+   width: 50%;
+  }
+  .facebook button:hover{
+   width: 60%;
+  }
+  .gmail button:hover{
+   width: 60%;
+  }
+  .facebook img{
+   width: 70px;
+   float: none;
+   margin: 0;
+   padding: 0;
+  }
+  .gmail img{
+   width: 50px;
+   float: none;
+   margin: 0;
+   padding: 0;
+
+  }
+  .facebook h2{
+    font-size: 0px;
+  }
+  .gmail h2{
+    font-size: 0px;
+  }
+}
